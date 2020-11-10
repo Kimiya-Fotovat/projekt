@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid lightslategray;*/
+}
+.hamburgarmeny{
+    display: none;
+}
+
+a{
+    transition: 0.5s;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*---<Top menu>---*/
+.top-menu{
+    padding:20px 0 ;
+    border-bottom: 1px solid #707070;
+}
+.Working-hours i{
+    color: #2BAAEC;
+    font-size: 2px;
+    text-align: center;
+    }
+.Working-hours p{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #626262;
+}
+.social-media a{
+    margin: 0 5px;
+    color: #2BAAEC;
+}
+.social-media a:hover{
+    color: #25E6C8;
+}
+/*---<main menu>---*/
+.main-menu{
+    padding: 20px 0;
+}
+.main-menu .logo img{
+    width: 70%;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu ul li a{
+    color: #363636;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+.menu ul li a:hover{
+    color: #2BAAEC;
+}
+/*---<showcase>---*/
+.showcase{
+    background-color: #DEDEDE;
+}
+.woman-pic{
+    flex-basis: 40%;
+    padding-top: 10px;
+}
+.woman-pic img{
+    margin-bottom: -4px;
+}
+
+.showcase-text{
+    flex-basis: 45%;
+    margin-right: 40px;
+}
+.showcase-text h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+    color: #363636;
+    font-weight: 300;
+    line-height: 1.1;
+}
+.showcase-text p{
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+color: #626262;
+padding: 40px 0;
+}
+.showcase-text a{
+    padding: 10px 30px;
+    background-color: #25E6C8;
+    color: #fff;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+/*---<about us>---*/
+.man-pic{
+    flex-basis: 40%;
+}
+.man-pic img{
+    width: 80%;
+    padding-top: 20px;
+    margin-bottom: -5px;
+}
+.about-us-text{
+    flex-basis: 45%;
+    order: -1;
+    align-items: unset;
+}
+.about-us-text h2{
+    font-family: 'Roboto Slab', serif;
+    color: #363636;
+    font-size: 40px;
+    border-bottom: 4px solid #25E6C8;
+}
+.about-us-text span{
+    color:#2BAAEC;
+}
+.about-us-text p{
+    color: #626262;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    margin: 30px 55px;
+}
+.box h3{
+    text-align: center;
+    color: #2BAAEC;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+.box p{
+    color: #363636;
+    font-size: 14px;
+    margin: 0;
+}
+/*---<services>---*/
+.services {
+    padding: 50px 0;
+    background-color: #F7F7F7;
+    color: #626262;
+    font-size: 14px;
+    line-height: 22px;
+}
+#Our-services{
+    text-align: center;
+    color: #363636;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    border-bottom:4px solid #25E6C8 ;
+    width: 450px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.services h3 {
+    font-size: 17px;
+    color: #363636;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px 0;
+}
+.services p{
+    font-family: 'Roboto', sans-serif;
+    color: #626262;
+    padding: 20px 40px;
+}
+
+.service-item {
+    flex-basis: 32%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+.service-item p{
+    min-height: 150px;
+}
+.service-item i {
+    width: 130px;
+    height: 130px;
+    background-color:#25E6C8;
+    border-radius: 50%;
+    color: #fff;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto ;
+}
+
+.service-item:hover i {
+    background-color: #2BAAEC;
+}
+
+.service-item img {
+    width: 70px;
+}
+#box5 img{
+    width: 55px;
+    }
+/*---<appointment>---*/
+
+.appointment{
+    background-color: #4EB4E8;
+    padding: 35px 0px;
+}
+
+.appointment p{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.appointment a{
+    font-family: 'Roboto Slab', serif;
+    padding: 10px 15px;
+    background-color:#ffffff;
+    color: #2BAAEC;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+footer{
+background-color: #2BAAEC;
+padding: 20px 0;
+color: white;
+text-align: center;
+}
+
+
+/*---<Responsive>---*/
+
+@media screen and (max-width: 992px){
+
+    .container{
+        padding: 0 20px;
+    }
+    /*---<showcase>---*/
+    .woman-pic{
+        flex-basis: 38%;
+    
+    }
+    .showcase-text{
+        flex-basis: 52%;
+        margin: 0;
+    }
+    
+    .showcase-text h1{
+        font-size: 30px;
+    }
+    
+    .showcase-text p{
+        font-size: 15px;
+        padding: 10px 0;
+    }
+    .showcase-text a{
+        font-size: 14px;
+        padding: 8px 15px;
+        font-weight: 500;
+    }
+    /*---<about us>---*/
+    .man-pic{
+        flex-basis: 37%;
+    }
+    .man-pic img{
+        width: 100%;
+    }
+    .about-us-text{
+        flex-basis: 60%;
+    }
+    .about-us-text h2{
+        font-size: 26px;
+    }
+    .about-us-text p{
+        font-size: 12px;
+        margin: 8px;
+    }
+    .about-us-text .box{
+        margin: 0;
+        padding: 0;
+    }
+    .about-us-text .box h3{
+        font-size: 20px;
+    }
+    .about-us-text .box p{
+        font-size: 11px;
+    }
+     /*---<services>---*/
+     .service-item{
+         flex-basis: 48%;
+         margin: 0;
+     }
+    }
+    
+
+@media screen and (max-width: 676px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        display: block;
+       padding:  0 20px;
+    }
+    /*---<Top menu>---*/
+    .top-menu{
+        padding: 5px 0;
+    }
+    .top-menu .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-menu .Working-hours p{
+        font-size: 8px;
+    }
+    .social-media a{
+        margin: 0 2px;
+    }
+/*---<main menu>---*/
+.main-menu{
+    padding: 5px 0;
+}
+    .main-menu .logo img{
+        width: 150px;
+    }
+    .main-menu .menu{
+        display: none;
+    }
+    .hamburgarmeny{
+        display: block;
+    }
+    .main-menu .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hamburgarmeny i{
+    color: #2BAAEC;  
+    font-size: 35px;
+  }
+  /*---<showcase>---*/
+  .showcase .container{
+      display: flex;
+      justify-content: space-between;
+     
+  }
+  .woman-pic{
+      flex-basis: 33%;
+      padding: 0;
+      margin: 0;
+  }
+
+.showcase-text{
+    flex-basis: 67%;
+    margin:10px auto;
+    padding: 0px 0px 0px 10px;
+}
+.showcase-text h1{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.showcase-text p{
+    padding: 5px 0;
+    font-size: 13px;
+}
+.showcase-text a{
+    padding: 5px 8px;
+    font-size: 8px;
+    box-shadow: none;
+    border-radius: 5px;
+}
+/*---<about us>---*/
+.man-pic{
+    display: none;
+}
+.about-us-text{
+    text-align: center;
+}
+.about-us-text h2{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.about-us-text p{
+    margin: 10px auto;
+    text-align: justify;
+}
+.about-us-text .box{
+    margin: 10px 0;
+}
+.about-us-text .box h3{
+    font-size: 20px;
+    margin: 0;
+}
+.about-us-text .box p{
+    font-size: 11px;
+    font-weight: bold;
+}
+/*---<services>---*/
+.services{
+    padding: 10px 0;
+}
+#Our-services{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+}
+.service-item{
+    padding: 10px 0px;
+    margin: 10px 0;
+}
+.service-item p{
+    display: none;
+}
+
+.service-item i{
+    width: 80px;
+    height: 80px;
+}
+.service-item img{
+  width: 50px;
+}
+#box5 img{
+    width: 40px;
+}
+/*---<appointment>---*/
+.appointment {
+    text-align: center;
+    padding: 5px 0;
+}
+.appointment p{
+    font-size: 13px;
+}
+.appointment a{
+    padding: 5px 9px;
+    font-size: 8px;
+    font-weight:bolder ;
+    margin: 8px 0;
+    box-shadow: none;
+    border-radius: 5px;
+}
+footer{
+    padding: 5px 0;
+}
+footer p{
+font-size: 5px;
+}
+}
+@media screen and (max-width: 430px){
+    
+    /*---<top menu>---*/
+    .Working-hours{
+        display: none;
+    }
+     /*---<showcase>---*/
+     .woman-pic{
+         display: none;
+     }
+     .showcase-text{
+        flex-basis: 100%;
+        text-align: center;
+        padding: 0;
+     }
+     .showcase-text h1{
+         font-size:20px ;
+     }
+     
+}
+
